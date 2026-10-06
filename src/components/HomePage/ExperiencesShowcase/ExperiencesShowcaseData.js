@@ -13,6 +13,13 @@ import {
   Wallet,
 } from "lucide-react";
 
+import Arti3 from '../../../assets/images/HomePage/ExperiencesShowcase/Arti3.jpg'
+import sunRiseBoat from '../../../assets/images/HomePage/ExperiencesShowcase/sunRiseBoat.jpg'
+import streetView from '../../../assets/images/HomePage/ExperiencesShowcase/streetView.jpg'
+import foodWalk from '../../../assets/images/HomePage/ExperiencesShowcase/foodWalk.jpg'
+import silkWiving from '../../../assets/images/HomePage/ExperiencesShowcase/silkWiving.jpg'
+import sarnathExcursion from '../../../assets/images/HomePage/ExperiencesShowcase/sarnathExcursion.jpg'
+
 export const experiencesShowcaseContent = {
   eyebrow: "Unforgettable Experiences",
   titleLine1: "Experience",
@@ -29,9 +36,7 @@ export const experiencesShowcaseContent = {
 
 export const experiencesShowcaseVideo = {
   title: "A glimpse of Varanasi",
-  // YouTube link ("https://www.youtube.com/watch?v=XXXX" / "https://youtu.be/XXXX")
-  // ya local file ("/videos/varanasi.mp4") yahan daalo.
-  // Abhi testing ke liye ek sample video laga hai.
+  
   src: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
 };
 
@@ -51,8 +56,7 @@ export const experiencesShowcaseItems = [
     title: "Ganga Sunrise Boat Ride",
     description:
       "Witness the magical sunrise over the Ganges a peaceful start to your Varanasi journey.",
-    image:
-      "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=1200&q=80",
+    image: sunRiseBoat,
     path: "/experiences/ganga-sunrise-boat-ride",
   },
   {
@@ -60,8 +64,7 @@ export const experiencesShowcaseItems = [
     chip: { label: "Spiritual", icon: Flower2 },
     title: "Ganga Aarti Experience",
     description: "Be part of the divine evening ritual at Dashashwamedh Ghat.",
-    image:
-      "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1200&q=80",
+    image: Arti3,
     path: "/experiences/ganga-aarti",
   },
   {
@@ -69,8 +72,7 @@ export const experiencesShowcaseItems = [
     chip: { label: "Culture", icon: Users },
     title: "Heritage Walk",
     description: "Explore the narrow lanes, ancient temples and timeless stories.",
-    image:
-      "https://images.unsplash.com/photo-1626714485835-a4ebf1b8a1ba?auto=format&fit=crop&w=1000&q=80",
+    image: streetView,
     path: "/experiences/heritage-walk",
   },
   {
@@ -78,8 +80,7 @@ export const experiencesShowcaseItems = [
     chip: { label: "Food", icon: Utensils },
     title: "Banarasi Food Walk",
     description: "Taste the authentic flavors of Varanasi.",
-    image:
-      "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80",
+    image: foodWalk,
     path: "/experiences/banarasi-food-walk",
   },
   {
@@ -87,8 +88,7 @@ export const experiencesShowcaseItems = [
     chip: { label: "Art & Craft", icon: Palette },
     title: "Silk Weaving Experience",
     description: "Witness the artistry behind Banarasi silk.",
-    image:
-      "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=900&q=80",
+    image: silkWiving,
     path: "/experiences/silk-weaving",
   },
   {
@@ -96,8 +96,7 @@ export const experiencesShowcaseItems = [
     chip: { label: "History", icon: Landmark },
     title: "Sarnath Excursion",
     description: "Discover the place where Buddhism began.",
-    image:
-      "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?auto=format&fit=crop&w=900&q=80",
+    image: sarnathExcursion,
     path: "/experiences/sarnath-excursion",
   },
 ];
