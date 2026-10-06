@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "../components/HomePage/HeroSection/HeroSection";
 
 const HomePage = () => {
   return (
-    <div className='mx-auto flex h-19.5 max-w-350 items-center justify-between px-8'>
-      
+    <div className="">
+      <HeroSection />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
