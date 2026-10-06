@@ -6,6 +6,7 @@ import PlanYourCities from "../components/HomePage/PlanYourCities/PlanYourCities
 import GallerySection from "../components/HomePage/GallerySection/GallerySection";
 import FastivelEvent from "../components/HomePage/FastivelEvent/FastivelEvent";
 import ExperiencesShowcase from "../components/HomePage/ExperiencesShowcase/ExperiencesShowcase";
+import FeaturedTours from "../components/HomePage/FeaturedTours/FeaturedTours";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <GallerySection />
       <FastivelEvent />
       <ExperiencesShowcase />
+      <FeaturedTours />
     </div>
   );
 };
