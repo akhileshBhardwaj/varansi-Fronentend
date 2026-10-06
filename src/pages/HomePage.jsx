@@ -5,6 +5,7 @@ import CitiesStories from "../components/HomePage/CitiesStories/CitiesStories";
 import PlanYourCities from "../components/HomePage/PlanYourCities/PlanYourCities";
 import GallerySection from "../components/HomePage/GallerySection/GallerySection";
 import FastivelEvent from "../components/HomePage/FastivelEvent/FastivelEvent";
+import ExperiencesShowcase from "../components/HomePage/ExperiencesShowcase/ExperiencesShowcase";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <PlanYourCities />
       <GallerySection />
       <FastivelEvent />
+      <ExperiencesShowcase />
     </div>
   );
 };
