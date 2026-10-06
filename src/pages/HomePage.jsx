@@ -8,6 +8,7 @@ import FastivelEvent from "../components/HomePage/FastivelEvent/FastivelEvent";
 import ExperiencesShowcase from "../components/HomePage/ExperiencesShowcase/ExperiencesShowcase";
 import FeaturedTours from "../components/HomePage/FeaturedTours/FeaturedTours";
 import ShopVaranasi from "../components/HomePage/ShopVaranasi/ShopVaranasi";
+import FinalCTA from "../components/HomePage/CTA/FinalCTA";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       <ExperiencesShowcase />
       <FeaturedTours />
       <ShopVaranasi />
+      <FinalCTA />
     </div>
   );
 };
