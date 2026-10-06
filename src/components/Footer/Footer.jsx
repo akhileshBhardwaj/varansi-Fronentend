@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import {
-  ArrowRight,
-  MapPin,
-  Mail,
-} from "lucide-react";
+import { ArrowRight, MapPin, Mail } from "lucide-react";
 
 import {
   FaFacebookF,
@@ -14,6 +10,7 @@ import {
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
+import varanasiLogo from "../../assets/varasai-logo.png";
 
 const quickLinks = [
   { name: "Home", path: "/" },
@@ -97,23 +94,16 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#07171b] text-white">
-
       {/* ================= MAIN FOOTER ================= */}
-      <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 lg:px-10 lg:py-16">
-
+      <div className="mx-auto max-w-350 px-5 py-14 sm:px-8 lg:px-10 lg:py-16">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.35fr_1fr_1.2fr_1fr_1.35fr] lg:gap-8">
-
           {/* ================= BRAND ================= */}
-          <div className="max-w-[310px]">
-
+          <div className="max-w-77.5">
             {/* LOGO */}
-            <Link
-              to="/"
-              className="inline-flex items-center gap-3"
-            >
+            <Link to="/" className="inline-flex items-center gap-3">
               {/* Logo Placeholder */}
-              <div className="flex h-12 w-14 items-center justify-center rounded-lg border border-[#ffffff30] text-[9px] font-medium tracking-wider text-[#d9c7a7]">
-                LOGO
+              <div className="flex h-12 w-14 items-center justify-center rounded-lg  text-[9px] font-medium tracking-wider text-[#d9c7a7]">
+                <img src={varanasiLogo} alt="" />
               </div>
 
               <div>
@@ -128,13 +118,12 @@ const Footer = () => {
             </Link>
 
             <p className="mt-6 text-[13px] leading-6 text-[#aeb8b9]">
-              Explore the spiritual, cultural and historical beauty of
-              Varanasi. Your trusted travel guide to the city of Lord Shiva.
+              Explore the spiritual, cultural and historical beauty of Varanasi.
+              Your trusted travel guide to the city of Lord Shiva.
             </p>
 
             {/* SOCIAL ICONS */}
             <div className="mt-6 flex items-center gap-2.5">
-
               {socialLinks.map((social) => {
                 const Icon = social.icon;
 
@@ -149,7 +138,6 @@ const Footer = () => {
                   </a>
                 );
               })}
-
             </div>
           </div>
 
@@ -211,13 +199,13 @@ const Footer = () => {
           <div>
             <FooterTitle title="Newsletter" />
 
-            <p className="max-w-[260px] text-[13px] leading-6 text-[#aeb8b9]">
+            <p className="max-w-65 text-[13px] leading-6 text-[#aeb8b9]">
               Subscribe to get travel tips, updates and offers.
             </p>
 
             <form
               onSubmit={handleSubscribe}
-              className="mt-5 flex h-12 w-full max-w-[290px] items-center rounded-xl bg-white p-1"
+              className="mt-5 flex h-12 w-full max-w-72.5 items-center rounded-xl bg-white p-1"
             >
               <input
                 type="email"
@@ -237,29 +225,17 @@ const Footer = () => {
 
             {/* CONTACT INFO */}
             <div className="mt-6 space-y-3">
-
               <div className="flex items-center gap-3 text-[12px] text-[#9fa9aa]">
-                <MapPin
-                  size={15}
-                  className="shrink-0 text-[#d9a441]"
-                />
+                <MapPin size={15} className="shrink-0 text-[#d9a441]" />
 
-                <span>
-                  Varanasi, Uttar Pradesh, India
-                </span>
+                <span>Varanasi, Uttar Pradesh, India</span>
               </div>
 
               <div className="flex items-center gap-3 text-[12px] text-[#9fa9aa]">
-                <Mail
-                  size={15}
-                  className="shrink-0 text-[#d9a441]"
-                />
+                <Mail size={15} className="shrink-0 text-[#d9a441]" />
 
-                <span>
-                  hello@varanasiguide.com
-                </span>
+                <span>hello@varanasiguide.com</span>
               </div>
-
             </div>
           </div>
         </div>
@@ -269,13 +245,11 @@ const Footer = () => {
 
         {/* ================= BOTTOM ================= */}
         <div className="flex flex-col gap-4 text-[12px] text-[#899596] md:flex-row md:items-center md:justify-between">
-
           <p>
             © {new Date().getFullYear()} Varanasi Tourism. All Rights Reserved.
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
-
             <Link
               to="/incredible-india"
               className="transition-colors hover:text-[#e3bd71]"
@@ -283,9 +257,7 @@ const Footer = () => {
               Incredible India
             </Link>
 
-            <span className="text-[#ffffff30]">
-              |
-            </span>
+            <span className="text-[#ffffff30]">|</span>
 
             <Link
               to="/tourist-guide"
@@ -293,10 +265,8 @@ const Footer = () => {
             >
               Varanasi Tourist Guide
             </Link>
-
           </div>
         </div>
-
       </div>
     </footer>
   );
@@ -307,15 +277,11 @@ const Footer = () => {
 const FooterTitle = ({ title }) => {
   return (
     <div className="mb-5">
-
       <h3 className="relative inline-block text-[14px] font-semibold text-[#f2ebe3]">
-
         {title}
 
-        <span className="absolute -bottom-2 left-0 h-[2px] w-5 rounded-full bg-[#d9a441]" />
-
+        <span className="absolute -bottom-2 left-0 h-0.5 w-5 rounded-full bg-[#d9a441]" />
       </h3>
-
     </div>
   );
 };

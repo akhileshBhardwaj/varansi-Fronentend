@@ -15,6 +15,7 @@ import {
   ChevronRight,
   MapPinned,
 } from "lucide-react";
+import varasaiLogo from "../../assets/varasai-logo.png";
 
 const mainLinks = [
   { name: "Home", path: "/", icon: Home },
@@ -49,8 +50,8 @@ const Navbar = () => {
         <div className="mx-auto flex h-19.5 max-w-350 items-center justify-between px-8">
           {/* LOGO */}
           <NavLink to="/" className="flex items-center gap-3">
-            <div className="flex h-12 w-14 items-center justify-center rounded-lg border border-dashed border-[#bda9a0] text-xs text-[#8d7770]">
-              LOGO
+            <div className="flex h-12 w-14 items-center justify-center rounded-lg   text-xs text-[#8d7770]">
+              <img src={varasaiLogo} alt="" />
             </div>
 
             <div className="leading-none">
