@@ -7,6 +7,7 @@ import GallerySection from "../components/HomePage/GallerySection/GallerySection
 import FastivelEvent from "../components/HomePage/FastivelEvent/FastivelEvent";
 import ExperiencesShowcase from "../components/HomePage/ExperiencesShowcase/ExperiencesShowcase";
 import FeaturedTours from "../components/HomePage/FeaturedTours/FeaturedTours";
+import ShopVaranasi from "../components/HomePage/ShopVaranasi/ShopVaranasi";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <FastivelEvent />
       <ExperiencesShowcase />
       <FeaturedTours />
+      <ShopVaranasi />
     </div>
   );
 };
