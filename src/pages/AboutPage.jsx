@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className='pt-20 bg-amber-400' >AboutPage</div>
-  )
-}
+    <div className="mx-auto flex h-19.5 max-w-350 items-center justify-between px-8">
+      AboutPage
+    </div>
+  );
+};
 
-export default AboutPage
+export default AboutPage;
