@@ -7,20 +7,15 @@ export const citiesStoriesContent = {
   buttonText: "Our Story",
   buttonPath: "/about",
 };
-import Story_kashiVishwanath from '../../../assets/images/HomePage/Story_kashiVishwanath.png'
+import Story_kashiVishwanath from "../../../assets/images/HomePage/Story_kashiVishwanath.png";
 
 export const citiesStoriesVideo = {
   title: "The Living Heritage of Varanasi",
   duration: "3:34 min",
-  // Baad mein apni images se badal sakte ho
+
   mainImage: Story_kashiVishwanath,
-    // "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=1400&q=80",
-  thumbImage:  Story_kashiVishwanath,
-    // "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=400&q=80",
-  // Yahan apna video link daalo:
-  // 1) YouTube: "https://www.youtube.com/watch?v=XXXX" ya "https://youtu.be/XXXX"
-  // 2) Direct file: "/videos/varanasi.mp4"
-  // Abhi ek sample video laga hai testing ke liye
+  thumbImage: Story_kashiVishwanath,
+
   videoSrc:
     "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
 };
