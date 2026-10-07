@@ -48,7 +48,7 @@ export default function SocialButtons() {
         <button
           key={name}
           type="button"
-          className="flex h-14 items-center justify-center gap-2 rounded-xl border border-gray-200 bg-white text-sm font-medium text-gray-800 transition-all duration-300 hover:-translate-y-0.5 hover:border-orange-300 hover:shadow-lg hover:shadow-orange-100"
+          className="flex h-14 [@media(max-height:800px)]:lg:h-11 items-center justify-center gap-2 rounded-xl border border-gray-200 bg-white text-sm font-medium text-gray-800 transition-all duration-300 hover:-translate-y-0.5 hover:border-orange-300 hover:shadow-lg hover:shadow-orange-100"
         >
           <Icon />
           <span className="hidden sm:inline">{name}</span>

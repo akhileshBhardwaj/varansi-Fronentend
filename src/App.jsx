@@ -10,6 +10,7 @@ import Layout from "./Layout/Layout";
 import ShopPage from "./pages/ShopPage";
 import TourPage from "./pages/TourPage";
 import Login from "./pages/Auth/Login/Login";
+import Signup from "./pages/Auth/Signup/Signup";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const App = () => {
     {
       path: "login",
       element: <Login />,
+    },
+    {
+      path: "signup",
+      element: <Signup />,
     },
   ]);
 
