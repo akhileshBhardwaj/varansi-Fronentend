@@ -1,70 +1,137 @@
+// ========================================
+// GALLERY IMAGES
+// ========================================
+
+import boat from "../../../assets/images/HomePage/Gallery/boat.jpg";
+import devDiwali from "../../../assets/images/HomePage/Gallery/devDiwali.jpg";
+import eveneingGanga from "../../../assets/images/HomePage/Gallery/eveneingGanga.png";
+import handloom from "../../../assets/images/HomePage/Gallery/handloom.jpg";
+import morningOnGanga from "../../../assets/images/HomePage/Gallery/morningOnGanga.png";
+import festivelCelebration from "../../../assets/images/HomePage/Gallery/festivelCelebration.png";
+import soundOfTempleBell from "../../../assets/images/HomePage/Gallery/soundOfTempleBelml.jpg";
+import streetFood from "../../../assets/images/HomePage/Gallery/streetFood.jpg";
+
+// ========================================
+// ONLINE GALLERY IMAGES
+// ========================================
+
+const onlineGangaBoat =
+  "https://images.unsplash.com/photo-1771313018650-254f6b5f2c91?auto=format&fit=crop&fm=jpg&q=80&w=1200";
+
+const onlineTemple =
+  "https://images.unsplash.com/photo-1757693353915-78bc47214393?auto=format&fit=crop&fm=jpg&q=80&w=1200";
+
+const onlineGhat =
+  "https://images.unsplash.com/photo-1774177613396-a167ddeed592?auto=format&fit=crop&fm=jpg&q=80&w=1200";
+
+// ========================================
+// GALLERY SECTION CONTENT
+// ========================================
+
 export const gallerySectionContent = {
   eyebrow: "Our Gallery",
   titleLine1: "Moments Captured",
   titleLine2: "in Varanasi",
   description:
-    "A glimpse into the ghats, temples, rituals and everyday magic that make Varanasi unforgettable.",
+    "A visual journey through the river, traditions, celebrations, crafts and everyday life that give Varanasi its timeless character.",
   buttonText: "View Full Gallery",
   buttonPath: "/gallery",
 };
 
+// ========================================
+// GALLERY CATEGORIES
+// ========================================
+
 export const gallerySectionCategories = [
   "All",
-  "Ghats",
-  "Temples",
-  "Aarti",
+  "Ganga Life",
   "Culture",
+  "Food",
+  "Crafts",
+  "Festivals",
 ];
 
-// Images baad mein apni images se badal sakte ho.
-// Naye items add karoge to bento layout har 6 images ke baad apne aap repeat hoga.
+// ========================================
+// GALLERY ITEMS
+// ========================================
+
 export const gallerySectionItems = [
   {
     id: 1,
-    title: "Evening on the Ganga",
-    location: "Dashashwamedh Ghat",
-    category: "Ghats",
-    image:
-      "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=1200&q=80",
+    title: "Morning on the Ganga",
+    location: "Ganga Riverside",
+    category: "Ganga Life",
+    image: morningOnGanga,
   },
+
   {
     id: 2,
-    title: "The Golden Spire",
-    location: "Kashi Vishwanath",
-    category: "Temples",
-    image:
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=80",
+    title: "Life on the Ganga",
+    location: "Varanasi Riverfront",
+    category: "Ganga Life",
+    image: boat,
   },
+
   {
     id: 3,
-    title: "Ganga Aarti",
-    location: "Dashashwamedh Ghat",
-    category: "Aarti",
-    image:
-      "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1200&q=80",
+    title: "The Art of Handloom",
+    location: "Banaras",
+    category: "Crafts",
+    image: handloom,
   },
+
   {
     id: 4,
-    title: "Morning Rituals",
-    location: "Assi Ghat",
-    category: "Ghats",
-    image:
-      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=80",
+    title: "Flavours of Kashi",
+    location: "Old Varanasi",
+    category: "Food",
+    image: streetFood,
   },
+
   {
     id: 5,
-    title: "Where Buddha Taught",
-    location: "Sarnath",
-    category: "Temples",
-    image:
-      "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?auto=format&fit=crop&w=1200&q=80",
+    title: "The Sound of Temple Bells",
+    location: "Kashi",
+    category: "Culture",
+    image: soundOfTempleBell,
   },
+
   {
     id: 6,
-    title: "Colours of the Old City",
-    location: "Kashi Galis",
+    title: "A City in Celebration",
+    location: "Varanasi",
+    category: "Festivals",
+    image: festivelCelebration,
+  },
+
+  {
+    id: 7,
+    title: "Dev Deepawali",
+    location: "Ganga Riverfront",
+    category: "Festivals",
+    image: devDiwali,
+  },
+
+  {
+    id: 8,
+    title: "Evening on the Ganga",
+    location: "Varanasi Riverside",
+    category: "Ganga Life",
+    image: eveneingGanga,
+  },
+  {
+    id: 9,
+    title: "Morning Boat Ride",
+    location: "Ganga River, Varanasi",
+    category: "Ganga Life",
+    image: onlineGangaBoat,
+  },
+
+  {
+    id: 10,
+    title: "Temple at Sunset",
+    location: "Ganga Ghat, Varanasi",
     category: "Culture",
-    image:
-      "https://images.unsplash.com/photo-1626714485835-a4ebf1b8a1ba?auto=format&fit=crop&w=1200&q=80",
+    image: onlineTemple,
   },
 ];
