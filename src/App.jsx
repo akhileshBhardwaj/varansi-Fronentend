@@ -9,6 +9,7 @@ import AboutPage from "./pages/AboutPage";
 import Layout from "./Layout/Layout";
 import ShopPage from "./pages/ShopPage";
 import TourPage from "./pages/TourPage";
+import Login from "./pages/Auth/Login/Login";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const App = () => {
           element: <TourPage />,
         },
       ],
+    },
+    {
+      path: "login",
+      element: <Login />,
     },
   ]);
 
