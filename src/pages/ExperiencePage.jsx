@@ -5,6 +5,7 @@ import ExperienceThemeBanners from "../components/ExperiencePage/ExperienceTheme
 import MoreWaysExperience from "../components/ExperiencePage/MoreWaysExperience/MoreWaysExperience";
 import PerfectExperienceCta from "../components/ExperiencePage/PerfectExperienceCta/PerfectExperienceCta";
 import VisitorReviews from "../components/ExperiencePage/VisitorReviews/VisitorReviews";
+import ExperiencePackages from "../components/ExperiencePage/ExperiencePackages/ExperiencePackages";
 
 const ExperiencePage = () => {
   return (
@@ -15,6 +16,7 @@ const ExperiencePage = () => {
       <MoreWaysExperience />
       <PerfectExperienceCta />
       <VisitorReviews />
+      <ExperiencePackages />
     </div>
   );
 };
