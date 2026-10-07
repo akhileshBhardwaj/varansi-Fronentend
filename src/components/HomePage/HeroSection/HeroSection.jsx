@@ -12,11 +12,9 @@ import {
   ChevronDown,
   ArrowRight,
 } from "lucide-react";
-import homeBg from '../../../assets/images/HomePage/Home-background.png'
+import homeBg from "../../../assets/images/HomePage/HomeHerobanner.png";
 
-// Baad mein apni image ka path/URL yahan daal dena
-const HERO_IMAGE = homeBg
-//   "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=2000&q=80";
+const HERO_IMAGE = homeBg;
 
 const steps = [
   { no: "01", label: "Spirituality", icon: Flame },
@@ -55,7 +53,7 @@ const HeroSection = () => {
     "flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#fdf0e8] text-[#e9722a] transition-all duration-300 group-hover/field:scale-105 group-hover/field:bg-[#e9722a] group-hover/field:text-white group-focus-within/field:bg-[#e9722a] group-focus-within/field:text-white";
 
   return (
-    <section className="group/hero relative flex h-[calc(100svh-72px)] min-h-155 flex-col overflow-hidden bg-[#2a1630] lg:h-[calc(100svh-78px)]">
+    <section className="group/hero relative flex h-[calc(100svh-72px)] min-h-155 flex-col overflow-hidden bg-[#794689] lg:h-[calc(100svh-78px)]">
       {/* BACKGROUND IMAGE (hover pe slow zoom) */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-2500 ease-out group-hover/hero:scale-105"

@@ -1,4 +1,5 @@
 import { CalendarDays, Plane, BedDouble, Car, Route } from "lucide-react";
+import JournyBanner from '../../../assets/images/HomePage/JournyBanner1.png'
 
 export const planYourCitiesContent = {
   eyebrow: "Plan Your Journey",
@@ -7,9 +8,7 @@ export const planYourCitiesContent = {
     "Get travel information, best time to visit, itineraries, local transport and stay options – all in one place.",
   buttonText: "Plan Your Trip",
   buttonPath: "/book-tour",
-  // Baad mein apni image se badal sakte ho
-  image:
-    "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=1600&q=80",
+  image: JournyBanner,
 };
 
 export const planYourCitiesItems = [

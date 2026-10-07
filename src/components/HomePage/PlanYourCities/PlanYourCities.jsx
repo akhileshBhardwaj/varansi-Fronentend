@@ -15,17 +15,18 @@ const PlanYourCities = () => {
   return (
     <section className="group/plan relative overflow-hidden bg-[#0b2428]">
       {/* BACKGROUND IMAGE (right side) */}
+      {/* BACKGROUND IMAGE (full) */}
       {!imageFailed && (
         <img
           src={content.image}
           alt=""
           onError={() => setImageFailed(true)}
-          className="absolute inset-y-0 right-0 h-full w-full object-cover object-center transition-transform duration-2500 ease-out group-hover/plan:scale-105 lg:w-[62%]"
+          className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-2500 ease-out group-hover/plan:scale-105"
         />
       )}
 
       {/* OVERLAYS */}
-      <div className="absolute inset-0 bg-linear-to-r from-[#0b2428] via-[#0b2428]/90 to-[#0b2428]/30 lg:via-[#0b2428]/85 lg:to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-r from-[#0b2428] via-[#0b2428]/90 to-[#0b2428]/50 lg:from-[#0b2428] lg:from-35% lg:via-[#0b2428]/85 lg:via-55% lg:to-transparent" />
       <div className="absolute inset-0 bg-black/10" />
 
       {/* CONTENT */}
