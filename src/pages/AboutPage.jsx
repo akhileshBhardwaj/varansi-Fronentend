@@ -1,9 +1,12 @@
 import React from "react";
+import AboutHero from "../components/AboutPage/AboutHero/AboutHero";
+import AboutHighlights from "../components/AboutPage/AboutHighlights/AboutHighlights";
 
 const AboutPage = () => {
   return (
-    <div className="mx-auto flex h-19.5 max-w-350 items-center justify-between px-8">
-      AboutPage
+    <div>
+      <AboutHero />
+      <AboutHighlights />
     </div>
   );
 };
