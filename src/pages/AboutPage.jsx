@@ -5,6 +5,7 @@ import AboutStory from "../components/AboutPage/AboutStory/AboutStory";
 import AboutWhyChoose from "../components/AboutPage/AboutWhyChoose/AboutWhyChoose";
 import AboutTeam from "../components/AboutPage/AboutTeam/AboutTeam";
 import AboutCta from "../components/AboutPage/AboutCta/AboutCta";
+import AboutServices from "../components/AboutPage/AboutServices/AboutServices";
 
 const AboutPage = () => {
   return (
@@ -12,9 +13,10 @@ const AboutPage = () => {
       <AboutHero />
       <AboutHighlights />
       <AboutStory />
+      <AboutServices />
       <AboutWhyChoose />
       <AboutTeam />
-      <AboutCta/>
+      <AboutCta />
     </div>
   );
 };
