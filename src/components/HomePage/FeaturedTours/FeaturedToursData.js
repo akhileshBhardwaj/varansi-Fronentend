@@ -1,3 +1,12 @@
+// Images
+import GangaArti from "../../../assets/images/HomePage/FeaturedTour/GanagArti.jpg";
+import StreetView from "../../../assets/images/HomePage/FeaturedTour/StreetView.jpg";
+import sarnathTemple from "../../../assets/images/HomePage/FeaturedTour/sarnathTemple.jpg";
+import SankatMochan from "../../../assets/images/HomePage/FeaturedTour/SankatMochan.jpg";
+import kashi from "../../../assets/images/HomePage/FeaturedTour/varanasi.jpg";
+import VaranasiPaan from "../../../assets/images/HomePage/FeaturedTour/VaranasiPaan.jpg";
+import exploreAll from "../../../assets/images/HomePage/FeaturedTour/exploreAll.png";
+
 export const featuredToursContent = {
   eyebrow: "Curated Journeys",
   titleStart: "Featured",
@@ -26,9 +35,7 @@ export const featuredToursBanner = {
   buttonPath: "/book-tour",
 };
 
-// badgeClass: card ke upar wale badge ka colour
-// filters: kaun se filter tab mein ye tour dikhega
-// Images baad mein apni images se badal sakte ho
+// Tour Slider data
 export const featuredToursItems = [
   {
     id: 1,
@@ -44,8 +51,7 @@ export const featuredToursItems = [
     highlights: ["Boat Ride", "Temples", "Local Life"],
     price: 2999,
     filters: ["1 Day Tours", "Cultural Tours"],
-    image:
-      "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=900&q=80",
+    image: kashi,
     path: "/tours/kashi-essentials",
   },
   {
@@ -62,8 +68,7 @@ export const featuredToursItems = [
     highlights: ["Aarti Darshan", "Boat Ride", "Guide"],
     price: 1999,
     filters: ["1 Day Tours", "Spiritual Tours"],
-    image:
-      "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=900&q=80",
+    image: GangaArti,
     path: "/tours/ganga-aarti",
   },
   {
@@ -80,8 +85,7 @@ export const featuredToursItems = [
     highlights: ["Walking Tour", "Temples", "Local Markets"],
     price: 4999,
     filters: ["Heritage Tours", "Cultural Tours"],
-    image:
-      "https://images.unsplash.com/photo-1626714485835-a4ebf1b8a1ba?auto=format&fit=crop&w=900&q=80",
+    image: StreetView,
     path: "/tours/heritage-walk",
   },
   {
@@ -98,8 +102,7 @@ export const featuredToursItems = [
     highlights: ["Stupa", "Museum", "Guide"],
     price: 3499,
     filters: ["1 Day Tours", "Heritage Tours", "Cultural Tours"],
-    image:
-      "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?auto=format&fit=crop&w=900&q=80",
+    image: sarnathTemple,
     path: "/tours/sarnath-excursion",
   },
   {
@@ -116,8 +119,7 @@ export const featuredToursItems = [
     highlights: ["Darshan", "Temples", "Guide"],
     price: 2499,
     filters: ["1 Day Tours", "Spiritual Tours"],
-    image:
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=900&q=80",
+    image: SankatMochan,
     path: "/tours/kashi-vishwanath-darshan",
   },
   {
@@ -134,8 +136,7 @@ export const featuredToursItems = [
     highlights: ["Food Walk", "Silk Weaving", "Markets"],
     price: 2799,
     filters: ["1 Day Tours", "Cultural Tours"],
-    image:
-      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=900&q=80",
+    image: exploreAll,
     path: "/tours/silk-and-food-trail",
   },
 ];
