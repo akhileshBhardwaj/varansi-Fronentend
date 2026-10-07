@@ -53,7 +53,7 @@ export default function Signup() {
       className="relative min-h-dvh w-full overflow-x-hidden bg-[#1a0f0a] bg-cover bg-center bg-fixed font-['Inter',sans-serif] text-white lg:h-dvh lg:overflow-hidden"
       style={{ backgroundImage: `url(${BG_IMAGE})` }}
     >
-      <div className="pointer-events-none fixed inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/70 lg:bg-gradient-to-r lg:from-black/70 lg:via-black/25 lg:to-black/30" />
+      <div className="pointer-events-none fixed inset-0 bg-linear-to-b from-black/70 via-black/40 to-black/70 lg:bg-linear-to-r lg:from-black/70 lg:via-black/25 lg:to-black/30" />
 
       <div className="relative z-10 mx-auto flex min-h-dvh max-w-7xl flex-col px-4 py-4 sm:px-6 lg:h-full lg:min-h-0 lg:px-10 lg:py-5">
         <Header />
@@ -61,14 +61,14 @@ export default function Signup() {
         <div className="grid flex-1 items-center gap-6 py-6 lg:min-h-0 lg:grid-cols-[1.1fr_0.9fr] lg:py-4">
           {/* Left: hero + features (on phone: hero -> card -> features) */}
           <div className="contents lg:flex lg:flex-col lg:gap-6">
-            <section className="order-1 max-w-xl lg:order-none">
+            <section className="order-1 max-w-xl lg:order-0">
               <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-white/90">
                 Create your account
               </p>
               <h2 className="font-['Playfair_Display',serif] text-4xl font-bold leading-[1.05] drop-shadow-lg sm:text-5xl xl:text-6xl">
                 Join the
                 <br />
-                <span className="bg-gradient-to-r from-orange-300 to-orange-500 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-orange-300 to-orange-500 bg-clip-text text-transparent">
                   Varanasi
                 </span>
                 <br />
@@ -80,7 +80,7 @@ export default function Signup() {
               </p>
             </section>
 
-            <div className="order-3 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 lg:order-none lg:max-w-2xl [@media(max-height:760px)]:lg:hidden">
+            <div className="order-3 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 lg:order-0 lg:max-w-2xl [@media(max-height:760px)]:lg:hidden">
               {features.map(({ icon: Icon, title, desc }) => (
                 <div
                   key={title}
@@ -109,7 +109,7 @@ export default function Signup() {
             </p>
           </div>
 
-          <div className="order-2 flex justify-center lg:order-none lg:justify-end">
+          <div className="order-2 flex justify-center lg:order-0 lg:justify-end">
             <SignupCard />
           </div>
         </div>
