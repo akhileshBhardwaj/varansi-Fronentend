@@ -3,6 +3,7 @@ import ExperienceSoulHero from "../components/ExperiencePage/ExperienceSoulHero/
 import FeaturedExperince from "../components/ExperiencePage/FeaturedExperince/FeaturedExperince";
 import ExperienceThemeBanners from "../components/ExperiencePage/ExperienceThemeBanners/ExperienceThemeBanners";
 import MoreWaysExperience from "../components/ExperiencePage/MoreWaysExperience/MoreWaysExperience";
+import PerfectExperienceCta from "../components/ExperiencePage/PerfectExperienceCta/PerfectExperienceCta";
 
 const ExperiencePage = () => {
   return (
@@ -10,7 +11,8 @@ const ExperiencePage = () => {
       <ExperienceSoulHero />
       <FeaturedExperince />
       <ExperienceThemeBanners />
-      <MoreWaysExperience/>
+      <MoreWaysExperience />
+      <PerfectExperienceCta />
     </div>
   );
 };
