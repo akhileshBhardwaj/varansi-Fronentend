@@ -9,6 +9,13 @@ import {
   Headphones,
 } from "lucide-react";
 
+//images
+import silkFabrics from "../../../assets/images/HomePage/shop/silkFabrics.png";
+import memoryOfKashi from "../../../assets/images/HomePage/shop/memoryOfKashi.png";
+import banarasiSharee from "../../../assets/images/HomePage/shop/banarasiSharee.png";
+import crafts from "../../../assets/images/HomePage/shop/crafts.jpg";
+import SpiritualProduct from "../../../assets/images/HomePage/shop/SpiritualProduct.jpg";
+
 export const shopVaranasiContent = {
   eyebrow: "Shop Varanasi",
   titleLine1Start: "Take a",
@@ -53,44 +60,43 @@ export const shopVaranasiCategories = [
     id: 1,
     title: "Banarasi Sarees",
     description: "Timeless elegance in every weave",
-    image:
-      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80",
+    image: banarasiSharee,
     fallback: "from-[#7a1020] to-[#d1432f]",
     path: "/shop/banarasi-sarees",
   },
+
   {
     id: 2,
     title: "Silk Fabrics",
     description: "Heritage in fine threads",
-    image:
-      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=700&q=80",
+    image: silkFabrics,
     fallback: "from-[#1d3a7a] to-[#7a2a6b]",
     path: "/shop/silk-fabrics",
   },
+
   {
     id: 3,
     title: "Handicrafts",
     description: "Traditional art & local crafts",
-    image:
-      "https://images.unsplash.com/photo-1582582494705-f8ce0b0c24f0?auto=format&fit=crop&w=700&q=80",
+    image: crafts,
     fallback: "from-[#5a3a12] to-[#c08a2c]",
     path: "/shop/handicrafts",
   },
+
   {
     id: 4,
     title: "Spiritual Products",
-    description: "For your divine journey",
-    image:
-      "https://images.unsplash.com/photo-1600609842388-3e4b489d71c6?auto=format&fit=crop&w=700&q=80",
+    description: "Sacred essentials for your divine journey",
+    image: SpiritualProduct,
     fallback: "from-[#4a2a10] to-[#b9691f]",
     path: "/shop/spiritual-products",
   },
+
   {
     id: 5,
     title: "Souvenirs",
     description: "Memories of Kashi",
-    image:
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=700&q=80",
+    image: memoryOfKashi,
     fallback: "from-[#12474f] to-[#c9652a]",
     path: "/shop/souvenirs",
   },
