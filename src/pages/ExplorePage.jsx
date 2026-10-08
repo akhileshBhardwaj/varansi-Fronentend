@@ -4,6 +4,7 @@ import ExploreTrustStrip from "../components/ExplorePage/ExploreTrustStrip/Explo
 import ExploreCollections from "../components/ExplorePage/ExploreCollections/ExploreCollections";
 import ExploreFeaturedProducts from "../components/ExplorePage/ExploreFeaturedProducts/ExploreFeaturedProducts";
 import ExploreShopBanners from "../components/ExplorePage/ExploreShopBanners/ExploreShopBanners";
+import ExploreBestSellers from "../components/ExplorePage/ExploreBestSellers/ExploreBestSellers";
 
 const ExplorePage = () => {
   return (
@@ -12,7 +13,8 @@ const ExplorePage = () => {
       <ExploreTrustStrip />
       <ExploreCollections />
       <ExploreFeaturedProducts />
-      <ExploreShopBanners/>
+      <ExploreShopBanners />
+      <ExploreBestSellers />
     </div>
   );
 };
