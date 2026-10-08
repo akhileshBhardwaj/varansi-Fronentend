@@ -3,6 +3,7 @@ import ExplorePageHero from "../components/ExplorePage/ExplorePageHero/ExplorePa
 import ExploreTrustStrip from "../components/ExplorePage/ExploreTrustStrip/ExploreTrustStrip";
 import ExploreCollections from "../components/ExplorePage/ExploreCollections/ExploreCollections";
 import ExploreFeaturedProducts from "../components/ExplorePage/ExploreFeaturedProducts/ExploreFeaturedProducts";
+import ExploreShopBanners from "../components/ExplorePage/ExploreShopBanners/ExploreShopBanners";
 
 const ExplorePage = () => {
   return (
@@ -11,6 +12,7 @@ const ExplorePage = () => {
       <ExploreTrustStrip />
       <ExploreCollections />
       <ExploreFeaturedProducts />
+      <ExploreShopBanners/>
     </div>
   );
 };
