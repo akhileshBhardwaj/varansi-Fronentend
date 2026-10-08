@@ -20,6 +20,7 @@ import varasaiLogo from "../../assets/varasai-logo.png";
 const mainLinks = [
   { name: "Home", path: "/", icon: Home },
   { name: "Experiences", path: "/experiences", icon: MapPinned },
+  { name: "Explore", path: "/explore", icon: Compass },
   { name: "Tours", path: "/tours", icon: Map },
   { name: "Shop", path: "/shop", icon: ShoppingBag },
   { name: "About", path: "/about", icon: Info },

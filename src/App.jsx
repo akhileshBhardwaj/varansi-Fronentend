@@ -11,6 +11,7 @@ import ShopPage from "./pages/ShopPage";
 import TourPage from "./pages/TourPage";
 import Login from "./pages/Auth/Login/Login";
 import Signup from "./pages/Auth/Signup/Signup";
+import ExplorePage from "./pages/ExplorePage";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const App = () => {
         {
           path: "experiences",
           element: <ExperiencePage />,
+        },
+        {
+          path: "explore",
+          element: <ExplorePage />,
         },
         {
           path: "about",
