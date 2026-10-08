@@ -5,6 +5,7 @@ import ExploreCollections from "../components/ExplorePage/ExploreCollections/Exp
 import ExploreFeaturedProducts from "../components/ExplorePage/ExploreFeaturedProducts/ExploreFeaturedProducts";
 import ExploreShopBanners from "../components/ExplorePage/ExploreShopBanners/ExploreShopBanners";
 import ExploreBestSellers from "../components/ExplorePage/ExploreBestSellers/ExploreBestSellers";
+import ExploreArtisans from "../components/ExplorePage/ExploreArtisans/ExploreArtisans";
 
 const ExplorePage = () => {
   return (
@@ -15,6 +16,7 @@ const ExplorePage = () => {
       <ExploreFeaturedProducts />
       <ExploreShopBanners />
       <ExploreBestSellers />
+      <ExploreArtisans />
     </div>
   );
 };
