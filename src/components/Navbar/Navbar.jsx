@@ -7,13 +7,13 @@ import {
   Home,
   Compass,
   Map,
-  ShoppingBag,
   Info,
   User,
   CalendarDays,
   ArrowRight,
   ChevronRight,
   MapPinned,
+  Landmark,
 } from "lucide-react";
 import varasaiLogo from "../../assets/varasai-logo.png";
 
@@ -22,7 +22,7 @@ const mainLinks = [
   { name: "Experiences", path: "/experiences", icon: MapPinned },
   { name: "Explore", path: "/explore", icon: Compass },
   { name: "Tours", path: "/tours", icon: Map },
-  { name: "Shop", path: "/shop", icon: ShoppingBag },
+  { name: "Places", path: "/places", icon: Landmark },
   { name: "About", path: "/about", icon: Info },
 ];
 
