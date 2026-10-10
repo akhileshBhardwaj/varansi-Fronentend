@@ -1,3 +1,6 @@
+import AboutCTA from '../../../assets/images/AboutPage/AboutCTA.png'
+
+
 export const aboutCtaContent = {
   eyebrow: "Ready to Explore?",
   title: "Let's Discover Varanasi Together",
@@ -8,6 +11,5 @@ export const aboutCtaContent = {
   secondaryText: "Contact Us",
   secondaryPath: "/contact",
   // Online placeholder image - baad me apni image se replace kar lena
-  image:
-    "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=2000&q=80",
+  image: AboutCTA,
 };
