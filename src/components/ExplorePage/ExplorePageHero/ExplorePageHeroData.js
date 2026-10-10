@@ -1,3 +1,5 @@
+import ExploreBanner from '../../../assets/images/ExplorePage/ExploreBanner.png'
+
 export const explorePageHeroContent = {
   eyebrow: "Varanasi Shop",
   title: "Take a Piece of Varanasi Home",
@@ -6,8 +8,7 @@ export const explorePageHeroContent = {
   buttonText: "Explore Collections",
   buttonPath: "/shop",
   // Online placeholder image - baad me apni image (saree wali ladki + ghat) se replace kar lena
-  image:
-    "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=2000&q=80",
+  image: ExploreBanner,
   badge: {
     top: "AUTHENTIC",
     center: "BANARASI",
