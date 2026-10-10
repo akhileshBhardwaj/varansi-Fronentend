@@ -10,8 +10,11 @@ import {
 import Header from "../../../components/login/Header";
 import SignupCard from "./SignupCard";
 
-const BG_IMAGE =
-  "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=2000&q=80";
+//Image
+import SignupBanner from '../../../assets/images/SignupBanner.png'
+
+
+const BG_IMAGE = SignupBanner
 
 const features = [
   {
