@@ -4,69 +4,71 @@ import {
   UtensilsCrossed,
   ShoppingBag,
   MapPin,
-  Leaf,
+  Footprints,
 } from "lucide-react";
 
 export const aboutServicesContent = {
   eyebrow: "What We Do",
-  title: "Creating Meaningful Travel Experiences",
+  title: "Experience Varanasi Beyond the Ordinary",
   description:
-    "We design authentic tours, experiences and travel services that allow you to explore Varanasi like a local — through its ghats, temples, food, art, culture and people.",
+    "Discover the soul of Varanasi through guided city tours, local traditions, authentic cuisine, Banarasi craftsmanship and meaningful cultural experiences.",
   buttonText: "Explore Our Tours",
   buttonPath: "/tours",
 };
 
-// Images online placeholder hain - baad me har card ki apni image se replace kar lena
-const PLACEHOLDER =
-  "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=700&q=75";
-
 export const aboutServicesItems = [
   {
     id: 1,
-    title: "Tours & Itineraries",
-    description: "Well-curated trips for every traveller",
+    title: "Guided City Tours",
+    description:
+      "Explore Varanasi's iconic landmarks and historic streets with thoughtfully planned city tours.",
     icon: Route,
-    image: PLACEHOLDER,
-    fallback: "from-[#e08a5a] to-[#3a2a3a]",
+    image:
+      "https://images.unsplash.com/photo-1702440974610-18857c29a69d?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: 2,
-    title: "Local Experiences",
-    description: "Unique activities with local experts",
+    title: "Cultural Experiences",
+    description:
+      "Discover local traditions, festivals, music and the everyday life of Kashi.",
     icon: Star,
-    image: PLACEHOLDER,
-    fallback: "from-[#a83a2a] to-[#2a0f0c]",
+    image:
+      "https://images.unsplash.com/photo-1774438534014-e1b95473086b?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: 3,
-    title: "Food & Culture",
-    description: "Taste the authentic flavours of Varanasi",
+    title: "Local Food & Street Flavours",
+    description:
+      "Taste Indian street food, traditional sweets and authentic local delicacies.",
     icon: UtensilsCrossed,
-    image: PLACEHOLDER,
-    fallback: "from-[#b5702a] to-[#3a1e0c]",
+    image:
+      "https://images.unsplash.com/photo-1769019401093-38f564d6408a?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: 4,
-    title: "Handicrafts & Shopping",
-    description: "Support local artisans",
+    title: "Banarasi Art & Handloom",
+    description:
+      "Discover the beauty of Banarasi silk, traditional weaving and handmade crafts.",
     icon: ShoppingBag,
-    image: PLACEHOLDER,
-    fallback: "from-[#c0502a] to-[#3a140c]",
+    image:
+      "https://images.unsplash.com/photo-1759607236409-1df137ecb3b6?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: 5,
-    title: "Travel Guidance",
-    description: "Helpful information for a smooth journey",
+    title: "Personalized Trip Planning",
+    description:
+      "Plan your visit with recommendations tailored to your interests and schedule.",
     icon: MapPin,
-    image: PLACEHOLDER,
-    fallback: "from-[#c98a3a] to-[#4a2a10]",
+    image:
+      "https://images.unsplash.com/photo-1781861799305-d22ee4b22795?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: 6,
-    title: "Sustainable Tourism",
-    description: "Preserving heritage for future generations",
-    icon: Leaf,
-    image: PLACEHOLDER,
-    fallback: "from-[#d98a6a] to-[#2a2a3a]",
+    title: "Spiritual & Heritage Walks",
+    description:
+      "Walk through historic neighbourhoods and discover the stories behind Kashi.",
+    icon: Footprints,
+    image:
+      "https://images.unsplash.com/photo-1651081310524-a6bdbc90997c?auto=format&fit=crop&w=900&q=80",
   },
 ];
