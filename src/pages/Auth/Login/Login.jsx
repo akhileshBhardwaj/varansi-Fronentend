@@ -4,10 +4,10 @@ import FeatureStrip from "../../../components/login/FeatureStrip";
 import LoginCard from "../../../components/login/LoginCard";
 
 //Image
+import loginBanner from '../../../assets/images/loginBanner.png'
 
 // Online image (Unsplash). Replace with any Varanasi ghat photo you like.
-const BG_IMAGE =
-  "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=2000&q=80";
+const BG_IMAGE = loginBanner
 
 export default function Login() {
   return (
