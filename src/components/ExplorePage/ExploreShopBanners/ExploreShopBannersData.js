@@ -2,6 +2,12 @@
 const PLACEHOLDER =
   "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=1400&q=75";
 
+  import Essentials from '../../../assets/images/ExplorePage/ShopBanner/Essentials.png'
+  import handicraft from '../../../assets/images/ExplorePage/ShopBanner/handicraft.png'
+  import varnasaiSaree from '../../../assets/images/ExplorePage/ShopBanner/varnasaiSaree.png'
+  import SouvenirsfromKashi from '../../../assets/images/ExplorePage/ShopBanner/SouvenirsfromKashi.png'
+  import TimelesBanarasiSilk from '../../../assets/images/ExplorePage/ShopBanner/TimelesBanarasiSilk.png'
+
 // Upar ke 2 promo cards
 export const exploreShopPromos = [
   {
@@ -10,7 +16,7 @@ export const exploreShopPromos = [
     description: "Woven with centuries of tradition for the modern you.",
     buttonText: "Shop Sarees",
     path: "/shop?category=sarees",
-    image: PLACEHOLDER,
+    image: varnasaiSaree,
     fallback: "from-[#5a1f3a] to-[#1f0a14]",
   },
   {
@@ -20,7 +26,7 @@ export const exploreShopPromos = [
       "Bring home the blessings of Kashi with authentic spiritual items.",
     buttonText: "Shop Spiritual",
     path: "/shop?category=spiritual",
-    image: PLACEHOLDER,
+    image: Essentials,
     fallback: "from-[#6a3a10] to-[#1f1208]",
   },
 ];
@@ -34,7 +40,7 @@ export const exploreShopSlides = [
       "Unique handicrafts that tell the story of Varanasi's rich culture.",
     buttonText: "Explore Handicrafts",
     path: "/shop?category=handicrafts",
-    image: PLACEHOLDER,
+    image: handicraft,
     fallback: "from-[#4a2a14] to-[#150c06]",
   },
   {
@@ -43,7 +49,7 @@ export const exploreShopSlides = [
     description: "Pure silk fabrics woven by master weavers of Kashi.",
     buttonText: "Shop Silk Fabrics",
     path: "/shop?category=silk-fabrics",
-    image: PLACEHOLDER,
+    image: TimelesBanarasiSilk,
     fallback: "from-[#5a1f3a] to-[#1f0a14]",
   },
   {
@@ -52,7 +58,7 @@ export const exploreShopSlides = [
     description: "Carry a piece of the ghats home with thoughtful keepsakes.",
     buttonText: "Shop Souvenirs",
     path: "/shop?category=souvenirs",
-    image: PLACEHOLDER,
+    image: SouvenirsfromKashi,
     fallback: "from-[#6a3a10] to-[#1f1208]",
   },
 ];
