@@ -11,7 +11,7 @@ import Header from "../../../components/login/Header";
 import SignupCard from "./SignupCard";
 
 //Image
-import SignupBanner from '../../../assets/images/SignupBanner.png'
+import SignupBanner from '../../../assets/images/SignupBanner2.png'
 
 
 const BG_IMAGE = SignupBanner
