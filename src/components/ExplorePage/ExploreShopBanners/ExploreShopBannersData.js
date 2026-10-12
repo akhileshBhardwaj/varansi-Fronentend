@@ -1,7 +1,3 @@
-// Images online placeholder hain - baad me har banner ki apni image se replace kar lena
-const PLACEHOLDER =
-  "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=1400&q=75";
-
   import Essentials from '../../../assets/images/ExplorePage/ShopBanner/Essentials.png'
   import handicraft from '../../../assets/images/ExplorePage/ShopBanner/handicraft.png'
   import varnasaiSaree from '../../../assets/images/ExplorePage/ShopBanner/varnasaiSaree.png'
