@@ -7,7 +7,6 @@ export const experienceSoulHeroContent = {
   title: "Experience the Soul of Varanasi",
   description:
     "From divine rituals to vibrant streets, immerse yourself in authentic experiences that go beyond sightseeing.",
-  // Online placeholder image - baad me apni image se replace kar lena
   image: ExperienceBanner,
   searchPlaceholder:
     "Search experiences (e.g. Ganga Aarti, Boat Ride, Food Tour...)",
