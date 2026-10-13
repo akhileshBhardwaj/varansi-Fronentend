@@ -1,11 +1,14 @@
+import ExperienceBanner from '../../../assets/images/ExperiencePage/ExperienceBanner.png'
+
+
+
 export const experienceSoulHeroContent = {
   eyebrow: "Experiences",
   title: "Experience the Soul of Varanasi",
   description:
     "From divine rituals to vibrant streets, immerse yourself in authentic experiences that go beyond sightseeing.",
   // Online placeholder image - baad me apni image se replace kar lena
-  image:
-    "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&w=2000&q=80",
+  image: ExperienceBanner,
   searchPlaceholder:
     "Search experiences (e.g. Ganga Aarti, Boat Ride, Food Tour...)",
   searchPath: "/experiences",
